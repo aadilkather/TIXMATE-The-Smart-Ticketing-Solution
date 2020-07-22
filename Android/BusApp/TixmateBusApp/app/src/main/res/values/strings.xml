@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tixmate BusApp</string>
+    <string name="channel_name">channel_name</string>
+    <string name="channel_description">desc</string>
+</resources>

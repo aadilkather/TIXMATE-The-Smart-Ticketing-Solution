@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp">
+
+    <ImageView
+        android:id="@+id/stopImageView"
+        android:layout_marginTop="3dp"
+        android:layout_width="30dp"
+        android:layout_height="80dp"
+        android:src="@drawable/route"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/stopNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/txtColor"
+            android:textSize="18sp"
+            android:text="kolenchery"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/stopTimeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="06:05:00"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
